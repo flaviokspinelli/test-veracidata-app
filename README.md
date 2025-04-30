@@ -2,6 +2,9 @@
 
 Este é um projeto React que permite criar, editar, excluir e listar clientes. Utiliza Material UI para a interface e gerenciamento de autenticação e contexto de cliente.
 
+## 🧰 Node
+Projeto desenvolvido com Node 20.11.0
+
 ## 🧰 Tecnologias utilizadas
 
 - React
