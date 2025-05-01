@@ -134,15 +134,31 @@ const Customers = () => {
               </Table>
             </TableContainer>
           ) : (
-            searchText.length > 0 && (
-              <Card>
-                <CardContent>
+            <Card>
+              <CardContent>
+                {searchText.length > 0 ?
                   <Typography align="center">
                     Nenhum resultado encontrado para <b>{searchText}</b>
                   </Typography>
-                </CardContent>
-              </Card>
-            )
+                : 
+                  <Grid container justifyContent='center' textAlign='center'>
+                    <Grid>
+                      <Typography align="center" mt={1} mb={1}>
+                        Nenhum cliente cadastrado. Crie seu primeiro cliente.
+                      </Typography>
+                      <Button
+                        variant="contained"
+                        color="primary"
+                        startIcon={<Add />}
+                        onClick={() => navigate('/customers/create')}
+                      >
+                        Adicionar cliente
+                      </Button>
+                    </Grid>
+                  </Grid>
+                }
+              </CardContent>
+            </Card>
           )}
         </>
       )}

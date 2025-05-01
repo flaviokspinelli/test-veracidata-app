@@ -147,7 +147,7 @@ const ClientForm = () => {
                     readOnly: options?.actions.POST.name.read_only,
                   }}
                   InputLabelProps={{
-                    shrink: fields?.name
+                    shrink: true
                   }}
                 />
               </Grid>
@@ -166,7 +166,7 @@ const ClientForm = () => {
                     readOnly: options?.actions.POST.email.read_only,
                   }}
                   InputLabelProps={{
-                    shrink: fields?.email
+                    shrink: true
                   }}
                 />
               </Grid>
@@ -188,7 +188,7 @@ const ClientForm = () => {
                     readOnly: options?.actions.POST.phone.read_only,
                   }}
                   InputLabelProps={{
-                    shrink: fields?.phone
+                    shrink: true
                   }}
                 />
               </Grid>
@@ -208,7 +208,7 @@ const ClientForm = () => {
                     readOnly: options?.actions.POST.birthday.read_only,
                   }}
                   InputLabelProps={{
-                    shrink: fields?.birthday
+                    shrink: true
                   }}
                 />
               </Grid>
