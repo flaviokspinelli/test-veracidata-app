@@ -2,10 +2,10 @@
 
 Este é um projeto React que permite criar, editar, excluir e listar clientes. Utiliza Material UI para a interface e gerenciamento de autenticação e contexto de cliente.
 
-## 🧰 Node
+## Node
 Projeto desenvolvido com Node 22.11.0
 
-## 🧰 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - React
 - React Router
@@ -13,7 +13,7 @@ Projeto desenvolvido com Node 22.11.0
 - Axios
 - Context API
 
-## 🚀 Instalação
+## Instalação
 
 1. **Clone o repositório:**
 
